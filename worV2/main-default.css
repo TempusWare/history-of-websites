@@ -1,0 +1,92 @@
+img.avatar {
+  width: 250px;
+  border-radius: 50px;
+  border: 5px solid black;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 225px;
+  margin-bottom: 225px;
+  transition: 0.125s
+}
+img.avatar:hover {
+  transform: scale(.95);
+  opacity: 0.95;
+}
+div#header1 {
+  background-image: url("img/bg-lighthouse-blur.jpg");
+  background-size: cover;
+  /*background-position: 0% 50%;*/
+  background-attachment: fixed;
+  border-bottom: 10px solid black;
+  height: 700px;
+  padding-top: 15px;padding-bottom: 15px
+}
+div#header2 {
+  background-image: url("img/bg-igloo-blur.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  border-bottom: 10px solid black;
+  height: 700px;
+  padding-top: 15px;padding-bottom: 15px
+}
+div#header3 {
+  background-image: url("img/bg-cove-blur.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  border-bottom: 10px solid black;
+  height: 1000px;
+  padding-top: 15px;padding-bottom: 15px
+}
+div#bottomdiv {
+  height: 65px;
+  background-image: url('img/bottombar-banner.jpg');
+  background-repeat: repeat-x;
+  background-position: center;
+  z-index: 3
+}
+div#bottomdiv p {
+  padding-top: 20px;
+  cursor: default;
+  color: white
+}
+
+h1.main-h1 {
+  font-family: Kalam;
+  margin-top: 25px;
+  text-shadow: black 0 0 5px;
+  color: white;
+  font-size: 4em;
+  cursor: default;
+}
+h2.main-h2 {
+  font-family: Kalam;
+  text-shadow: black 0 0 5px;
+  color: white;
+  font-size: 2em;
+  background: rgba(0, 0, 0, 0.25);
+  display: inline-block;
+  padding: 10px;
+  cursor: default;
+  border-radius: 25px
+}
+p.main-p1 {
+  font-family: Kalam;
+  text-decoration: none;
+  font-size: 1.25em;
+  color: black;
+  background: rgba(255, 255, 255, 0.75);
+  display: inline-block;
+  padding: 10px;
+  cursor: default;
+  border-radius: 25px
+}
+a.basic, a.basic:link, a.basic:active, a.basic:visited {
+  font-family: Kalam;
+  text-decoration: underline;
+  font-size: 1em;
+  color: #0280CD;
+  transition: .125s
+}
+a.basic:hover {
+  color: #00529B;
+}

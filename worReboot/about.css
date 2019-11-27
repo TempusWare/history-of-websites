@@ -1,0 +1,38 @@
+body {
+  background: url("img/background_aunt-arctic.jpg");
+  background-size: cover;
+}
+div.page {
+  background-image: url("img/over_blogz.png");
+  background-repeat: repeat-x;
+  background-color: #ED5C5C;
+  height: 100vh;
+}
+.ab {
+  background-image: url(img/background_crop_band.jpg);
+  border-radius: 25px;
+  background-position: left top;
+  background-repeat: repeat;
+  width: 920px;
+  height: 500px;
+}
+a.vidi {
+/*  background: url("img/over_thmb.png") no-repeat center; */
+  border-radius: 25px;
+  width: 260px;
+  height: 260px;
+  z-index:2;
+}
+div#bluebar {
+  background: linear-gradient(#22A4F3, #117AD0);
+  height: 45px;
+  border: 1px solid #6ECAF9;
+}
+div#bluebar img {
+  opacity: 0.1
+}
+div.ab p {
+  font-family: Arial;
+  color: white;
+  font-size: 1.5em;
+}

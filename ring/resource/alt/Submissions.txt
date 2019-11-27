@@ -1,0 +1,15 @@
+If you want to submit your own model/rig to the site,
+please email submissions@tempusware.co.uk
+using this form:
+
+Asset Name:
+Your Channel/Handle Name:
+Image of your asset (1000x500):
+Description of your asset:
+Program the asset was made in:
+Google Drive Download link:
+Social Media Profile/YouTube Channel link:
+(Optional)Asset's post on a different site:
+
+Tip: You can write a README text file with the rig if you want to
+explain how the rig works.

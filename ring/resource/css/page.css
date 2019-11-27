@@ -1,0 +1,86 @@
+body {
+	background-image: url("../pic/banner_star-gradient.png");
+	background-repeat: repeat-x;
+	background-size: 750px;
+	background-color: black;
+}
+
+h1 {
+	font-size: 4em;
+	color:white;
+	font-family: 'SubFont2';
+	text-align:center;
+	margin: 0;
+}
+
+h2 {
+	font-size: 3em;
+	color:white;
+	font-family: 'SubFont2';
+	text-align:center;
+	margin: 0;
+}
+
+p {
+	color:white;
+	text-align:center;
+	padding:1px;
+	margin:10px;
+	font-family: 'SubFont2';
+	font-size: 2em;
+}
+
+th {
+	color:white;
+	font-family: 'SubFont2';
+	text-align:center;
+}
+
+a {
+	text-align:center;
+	font-family: 'SubFont2';
+}
+
+a:link {color:white; background-color:transparent; text-decoration:none}
+a:visited {color:white; background-color:transparent; text-decoration:none}
+a:hover {color:silver; background-color:transparent; text-decoration:none}
+a:active {color:white; background-color:transparent; text-decoration:none}
+
+@font-face {
+    font-family: "SubFont";
+    src: url("../alt/SubFont.ttf");
+}
+
+@font-face {
+    font-family: "SubFont2";
+    src: url("../alt/SubFont2.ttf");
+}
+
+#nav {
+    font-size: 3.6em;
+	padding: 5px;
+}
+
+div.logo {
+	display: inline-block;
+    position: relative;
+}
+
+div.nav {
+	display: inline-block;
+    position: relative;
+}
+
+* {
+	text-shadow: 0px 0px 4px black;
+}
+
+iframe#header {
+	border: 0px;
+	height: 215px;
+	width: 1200px;
+	position: relative;
+	left: 40px;
+	overflow: hidden;
+	display: inline-block;
+}

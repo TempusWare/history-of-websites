@@ -1,0 +1,106 @@
+div.subteam {
+  width: 400px;
+  display: inline-block;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  border-radius: 25px;
+  background-size: 250px;
+  background-repeat: no-repeat;
+  background-position: 50% 65px;
+}
+div.c-a {
+  background-image: url("img/credits/puffle-yellow.png");
+}
+div.c-b {
+  background-image: url("img/credits/puffle-blue2.png");
+}
+div.c-c {
+  background-image: url("img/credits/puffle-green.png");
+}
+div.subteam a {
+  /*cursor: default;*/
+}
+div.subteam p {
+  font-weight: bold;
+  font-family: Kalam;
+  font-size: 1.5em;
+  transition: .1s;
+  /*cursor: default;*/
+}
+div.subteam p:hover {
+  text-shadow: white 0 0 5px;
+}
+h2.subteamh2 {
+  font-family: Kalam;
+  text-shadow: black 0 0 5px;
+  color: white;
+  font-size: 2em;
+  padding-bottom: 200px;
+  cursor: default;
+}
+div.subteam h3 {
+  font-family: Kalam;
+  text-shadow: black 0 0 5px;
+  font-size: 2em;
+  cursor: default;
+}
+.c-blue {
+  color: #003366
+}
+.c-green {
+  color: #009900
+}
+.c-pink {
+  color: #FF319C
+}
+.c-black {
+  color: #333333
+}
+.c-yellow {
+  color: #FFCC00
+}
+.c-purple {
+  color: #63009C
+}
+.c-brown {
+  color: #996600
+}
+.c-peach {
+  color: #FF6363
+}
+.c-red {
+  color: #CE0000
+}
+.c-orange {
+  color: #FF6600
+}
+.c-darkgreen {
+  color: #006600
+}
+.c-lightblue {
+  color: #0099CC
+}
+.c-lime {
+  color: #8BE303
+}
+.c-aqua {
+  color: #02A797
+}
+.p-yellow {
+  color: #FFFF00
+}
+.p-gold {
+  color: #FFDA00
+}
+.p-blue {
+  color: #03CCFF
+}
+.p-purple {
+  color: #AD5FC6
+}
+.p-red {
+  color: #EB4448
+}
+.p-green {
+  color: #33CC00
+}

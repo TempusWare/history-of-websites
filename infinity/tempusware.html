@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+
+    <!-- Viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Reference Stylesheet -->
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+    <!-- Import jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- Insert Member Data before HTML elements have loaded -->
+    <script type="text/javascript" src="member_data/tempusware.js"></script>
+
+    <!-- Generate title using data from above -->
+    <title id="pageTitle">Title | DeCipher Creations</title>
+
+  </head>
+
+  <body><center><br>
+
+    <!-- Display of Member Icons -->
+    <section id="icons"></section>
+
+    <!-- Member name and embeded videos -->
+    <section>
+
+      <!-- Channel name -->
+      <h1 id="channelName">Channel name</h1>
+
+      <!-- Buttons to change the embeded video -->
+      <h2 id="videoEmbed1" onclick="videoLink(1)">Video 1 Title</h2>
+      <h2 id="videoEmbed2" onclick="videoLink(2)">Video 2 Title</h2>
+
+    </section>
+
+    <!-- Embeded video container -->
+    <section>
+
+      <!-- Embeded video -->
+      <div class="videoEmbed displayFrame">
+        <iframe id="videoEmbed" width="100%" height="100%" frameborder="0" allowfullscreen></iframe>
+      </div>
+
+    </section>
+
+    <!-- About this member -->
+    <section>
+
+      <!-- About heading -->
+      <h3 id="aboutMemberTitle">About heading</h3>
+
+      <!-- About paragraph -->
+      <p id="aboutMemberText">About this member</p>
+
+      <!-- Creation date -->
+      <p id="startDate">Creation date</p>
+
+    </section>
+
+    <!-- Gallery of member's renders -->
+    <section>
+
+      <!-- Image 1 -->
+      <div id="image1" class="gallery displayFrame"></div>
+
+      <!-- Image 2 -->
+      <div id="image2" class="gallery displayFrame"></div>
+    </section>
+
+    <!-- Social Media -->
+    <section>
+
+      <!-- Heading -->
+      <p id="twitterAd">Follow this member on Twitter</p>
+
+      <!-- @TwitterHandle -->
+      <p id="twitterLink" class="link" onclick="openLink('Continue to ' + memberInfo['channelName'] + '\'s Twitter profile?', 'https://twitter.com/' + memberInfo['twitterUsername'])">@TwitterHandle</p>
+
+    </section>
+
+    <!-- Copyright -->
+    <section id="return">
+
+      <!-- Return the main page -->
+      <h4 onclick="parent.location='index.html'">DeCipher Creations</h4>
+
+      <!-- Copyright paragraph -->
+      <p id="notice">If you're reading this, the page has not loaded properly/yet.</p>
+
+    </section>
+
+  <br></center></body>
+
+</html>
+
+<style media="screen">
+
+@media only screen and (max-width: 720px) {
+  p#twitterLink {
+    font-size: 7.5vh
+  }
+}
+</style>
+
+<!-- Insert Scripts after HTML elements have loaded -->
+<script type="text/javascript" src="scripts.js"></script>
+
+<!-- Insert MEMBER PAGE Scripts after HTML elements have loaded -->
+<script type="text/javascript" src="member_code.js"></script>

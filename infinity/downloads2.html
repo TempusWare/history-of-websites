@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+
+    <!-- Reference Stylesheet -->
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+    <!-- Import jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- Insert Data before HTML elements have loaded -->
+    <script type="text/javascript">
+
+      // Item Info Array
+      var item1 = {
+        title: "Mine-imator Omnitrix Models",
+        creator: creators[0],
+        download_link: "https://drive.google.com/open?id=1rtXWlLSWtm_Jv5A2-R5wFbNhCSu__fRW",
+        image_url: "tempusware_omnitrix.jpg",
+        size: sizeList[0]
+      }
+
+      var creators = [
+        "TempusWare"
+      ]
+
+      
+
+    </script>
+
+    <title>Downloads | DeCipher Creations</title>
+  </head>
+  <body><center><br>
+
+    <div class="section" id="icons"><!-- MEMBER ICONS --></div>
+
+    <div class="section">
+      <h1>Downloads</h1>
+    </div>
+
+    <div class="section">
+      <h3>Rules of Usage</h3>
+      <p>You are free to use any of our assets in your own projects as long as you credit the relevant creator.</p>
+    </div>
+
+    <div class="section">
+      <div id="imageOne" class="gallery"></div>
+      <p>Mine-imator Omnitrix Models<br>Created by TempusWare</p>
+      <p class="link" onclick="openLink('Download TempusWare\'s Mine-imator Omnitrix Models?', 'https://drive.google.com/open?id=1rtXWlLSWtm_Jv5A2-R5wFbNhCSu__fRW')">Download</p>
+    </div>
+
+    <div class="section">
+      <div id="imageTwo" class="gallery"></div>
+      <p>Mine-imator Journal Model<br>Created by TempusWare</p>
+      <p class="link" onclick="openLink('Download TempusWare\'s Mine-imator Journal Model?', 'https://drive.google.com/open?id=1U_1lHOw1F-UIzcx_eRpS4jBigwILsym8')">Download</p>
+    </div>
+
+    <div class="section">
+      <div id="imageThree" class="gallery"></div>
+      <p>Mine-imator Cresent Rose Model<br>Created by TempusWare</p>
+      <p class="link" onclick="openLink('Download TempusWare\'s Mine-imator Cresent Rose Model?', 'https://drive.google.com/open?id=1bYSj2lboyiv7A3fqwjnm85TUs1u9QHD1')">Download</p>
+    </div>
+
+    <div id="return" class="section"><!-- COPYRIGHT -->
+      <h3 onclick="parent.location='index.html'">DeCipher Creations</h3>
+      <p id="notice"></p>
+    </div>
+
+  <br></center></body>
+</html>
+<style type="text/css">
+  body {
+    background-image: url("img/background_downloads.jpg");
+  }
+  div#imageOne {
+    background-image: url("img/downloads/tempusware_omnitrix.jpg");
+    width: 68vw;
+    height: 21.5vw;
+    max-width: 680px;
+    max-height: 215px;
+  }
+  div#imageTwo {
+    background-image: url("img/downloads/tempusware_journal.jpg");
+    width: 34vw;
+    height: 34vw;
+    max-width: 340px;
+    max-height: 340px;
+  }
+  div#imageThree {
+    background-image: url("img/downloads/tempusware_cresent-rose.jpg");
+    width: 34vw;
+    height: 34vw;
+    max-width: 340px;
+    max-height: 340px;
+  }
+</style>
+<script type="text/javascript" src="scripts.js"></script>

@@ -1,0 +1,71 @@
+p.previewtext {
+	font-size: 3em;
+	text-align: center;
+	position: absolute;
+	z-index:1000;
+	color: white;
+	font-family: 'SubFont2';
+	padding-top: 4em;
+	padding-left: 2em;
+}
+p.previewtextsmall {
+	font-size: 2.5em;
+	text-align: center;
+	position: absolute;
+	z-index:1000;
+	color: white;
+	font-family: 'SubFont2';
+	padding-top: 5em;
+	padding-left: 1.5em;
+}
+img.previewpic {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 500px;
+	height: 250px;
+}
+div.preview {
+	display: inline-block;
+	position: relative;
+	width: 500px;
+	height: 250px;
+	margin: 10px;
+	border: 5px solid white;
+}
+.previewpichd {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 1000px;
+	height: 500px;
+}
+div.previewhd {
+	display: inline-block;
+	position: relative;
+	width: 1000px;
+	height: 500px;
+	margin: 10px;
+	border: 5px solid white;
+}
+div.previewvid {
+	display: inline-block;
+	position: relative;
+	width: 1000px;
+	height: 563px;
+	margin: 10px;
+	border: 5px solid white;
+}
+p#program {
+	font-size: 3em;
+}
+a#download {
+	font-size: 7em;
+}
+#previewimg {
+    opacity: 1.0;
+}
+#previewimg:hover {
+    opacity: 0.5;
+		transition: all ease 250ms
+}

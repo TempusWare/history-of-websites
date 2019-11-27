@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+
+    <!-- Viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Reference Stylesheet -->
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+    <!-- Import jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- Insert Data before HTML elements have loaded -->
+    <script type="text/javascript">
+
+      // Embeded videos links (minus the youtu.be)
+      var videoList = [
+        "9R_UZ_GmF8Q",
+        "kKRcJT7RIN8",
+        "Ppcwgt6wGhk"
+      ]
+
+    </script>
+
+    <title>DeCipher Creations</title>
+  </head>
+  <body><center><br>
+
+    <!-- Display of Member Icons -->
+    <section id="icons"></section>
+
+    <!-- Website title and embeded videos -->
+    <section>
+
+      <!-- Website title -->
+      <h1>DeCipher Creations</h1>
+
+      <!-- Buttons to change the embeded video -->
+      <h2 onclick="videoLink(0)">Animation</h2>
+      <h2 onclick="videoLink(1)">VFX</h2>
+      <h2 onclick="videoLink(2)">Machinimas</h2>
+    </section>
+
+    <!-- Embeded video -->
+    <section>
+      <div class="videoEmbed displayFrame">
+        <iframe id="videoEmbed" width="100%" height="100%" src="https://www.youtube.com/embed/kKRcJT7RIN8?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+      </div>
+    </section>
+
+    <!-- About this member -->
+    <section>
+
+      <!-- About heading -->
+      <h3>About Us</h3>
+
+      <!-- About paragraph -->
+      <p>DeCipher Creations is a group of people who enjoy making fan-creations based off pop culture media.</p>
+      <p>Creations from the group include #WaddleOnRewritten, a sketch comedy machinima series, and frequent fan-made Minecraft Doctor Who title sequences.</p>
+
+    </section>
+
+    <!-- Embeded video -->
+    <section>
+      <div class="videoEmbed displayFrame">
+        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/sbYWrCzRm2k?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+      </div>
+    </section>
+
+    <!-- Social Media -->
+    <section>
+
+      <!-- Heading -->
+      <p>Join our Discord server:</p>
+      <p class="link" onclick="openLink('Join the DeCipher Creations Discord server?', 'https://discord.gg/uJq7fXB')">discord.gg/uJq7fXB</p>
+
+    </section>
+
+    <!-- Copyright -->
+    <section id="return">
+
+      <!-- Return the main page -->
+      <h4 onclick="parent.location='index.html'">DeCipher Creations</h4>
+
+      <!-- Copyright paragraph -->
+      <p id="notice">If you're reading this, the page has not loaded properly/yet.</p>
+
+    </section>
+
+  <br></center></body>
+</html>
+
+<!-- Styles for the home page specifically -->
+<style type="text/css">
+  body {
+    background-image: url("img/background_purple-galaxy.jpg");
+  }
+</style>
+
+<!-- Insert Scripts after HTML elements have loaded -->
+<script type="text/javascript" src="scripts.js"></script>

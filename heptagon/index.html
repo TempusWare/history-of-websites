@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<title>TempusWare</title>
+<head>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="shortcut icon" href="logo.ico">
+</head>
+<body>
+  <center>
+<div class="section" id="sec1"></div>
+  <div id="logo"><img id="logosept" onclick="logoCycle()" src="img/logo.svg"></div>
+<div class="section" id="sec2">
+  <h1 id="tempusware">TEMPUSWARE 201<div id="inLogo" onclick="easterEggSeven()">8</div></h1>
+  <h2 onclick="embedYTchangeA()"><u>ANIMATION</u></h2> <h2 onclick="wotrudoin()">&nbsp| </h2> <h2 onclick="embedYTchangeB()"><u>VFX</u></h2> <h2 onclick="wotrudoin()">&nbsp| </h2> <h2 onclick="embedYTchangeC()"><u>MACHINIMAS</u></h2>
+  <div id="gal">
+    <iframe id="galYT" width="68vh" height="38.3vh" max-width="680px" max-height="383px" src="https://www.youtube.com/embed/dZ9Rq0e8gl8" frameborder="0" allowfullscreen></iframe>
+  </div>
+</div>
+<div class="section" id="sec4">
+  <h1>ABOUT ME</h1>
+  <p>I'm a beginner in animation, VFX, web designing and screenplay writing.</p>
+  <br>
+  <p>I've made fan videos about multiple, pop culture TV shows and cartoons.</p>
+  <br>
+  <p>Since starting in late 2014, I've gained an active audience of roughly 1000 as of 2018.</p>
+  <br>
+</div>
+<div class="section" id="secDC">
+  <h1>DECIPHER CREATORS</h1>
+  <h2 title="TempusWare" onclick="parent.location='https://www.youtube.com/tempusware'"><u>TEMPUSWARE</u></h2>
+  <h2 onclick="wotrudoin()">/</h2>
+  <h2 title="RetroTARDIS" onclick="parent.location='https://www.youtube.com/retrotardis'"><u>RETROTARDIS</u></h2>
+  <br>
+  <h2 title="MinecraftVisuals" onclick="parent.location='https://www.youtube.com/channel/UCpq6ujazOYTqPAUVH5_k6aw'"><u>MCVISUALS</u></h2>
+  <h2 onclick="wotrudoin()">/</h2>
+  <h2 title="WisdomToaster" onclick="parent.location='https://www.youtube.com/channel/UCb3xi1r9kzR_g7hC-EUHqfg'"><u>WISDOMTOASTER</u></h2>
+  <br><br>
+</div>
+<div class="section" id="sec3">
+  <h1>SOCIAL MEDIA</h1>
+  <h2 onclick="parent.location='https://twitter.com/tempusware'"><u>TWITTER: @TEMPUSWARE</u></h2>
+  <br>
+  <h2 onclick="parent.location='https://youtube.com/tempusware'"><u>YOUTUBE: TEMPUSWARE</u></h2>
+  <br><br>
+</div>
+</center>
+<script>
+  var logo = document.getElementById("logosept");
+  var logoCycles = new Array("img/logo.svg", "img/logo01.png", "img/logo02.png", "img/logo03.png", "img/logo04.png", "img/logo05.png", "img/logo06.png", "img/logo07.png")
+  var logoNumber = 0;
+  function logoCycle() {
+    logoNumber += 1;
+    if (logoNumber == logoCycles.length) {
+      logoNumber = 0;
+    }
+    logo.src = logoCycles[logoNumber]
+  }
+  var embedYT = document.getElementById("galYT");
+  var embedYTlist = new Array("https://www.youtube.com/embed/MIMFxsT52ck", "https://www.youtube.com/embed/dZ9Rq0e8gl8", "https://www.youtube.com/embed/mpAjSmyGBP0")
+  function embedYTchangeA() {
+    embedYT.src = embedYTlist[0]
+  }
+  function embedYTchangeB() {
+    embedYT.src = embedYTlist[1]
+  }
+  function embedYTchangeC() {
+    embedYT.src = embedYTlist[2]
+  }
+  function easterEggSeven() {
+    alert("21/02/11 - 31/03/17")
+  }
+  function wotrudoin() {
+    alert("...")
+  }
+</script>
+</body>
+</html>

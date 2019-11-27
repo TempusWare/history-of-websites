@@ -1,0 +1,115 @@
+body {
+  background: url("img/background_penguin-band.jpg");
+  background-size: cover;
+}
+div.page {
+  background-image: url("img/over_blogz.png");
+  background-repeat: repeat-x;
+  background-color: #ED5C5C
+}
+.eps {
+  background-image: url(img/background_crop_band.jpg);
+  border-radius: 25px;
+  background-position: left top;
+  background-repeat: repeat;
+  width: 920px;
+  height: 500px;
+}
+a.vidi {
+/*  background: url("img/over_thmb.png") no-repeat center; */
+  border-radius: 25px;
+  width: 260px;
+  height: 260px;
+  z-index:2;
+}
+/* a.vidi:hover {
+    background: url("img/over_thmb.png") no-repeat center -260px;
+    border-radius: 25px;
+    width: 260px;
+    height: 260px;
+    z-index:2;
+} */
+div.vido {
+  display:inline-block;
+  border-radius: 25px;
+  z-index: 0;
+  width: 260px;
+  height: 260px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+div.showall {
+  background: linear-gradient(#1294F2, #0056A1);
+  width: 825px;
+  height: 75px;
+  border: 5px solid #003265;
+  border-radius: 25px;
+  margin-top: 10px;
+}
+div.showall:hover {
+  background: linear-gradient(#0056A1, #1294F2);
+}
+div.showall p {
+  padding: 10px;
+  font-family: Arial;
+  font-size: 3em;
+  text-align: center;
+  vertical-align: middle;
+  line-height:50px;
+  font-weight: bold;
+  color: white;
+  text-shadow: 0px 0px 10px #1294F2
+}
+.vep1 {
+  background: url("img/thmb_01.jpg") no-repeat center;
+}
+.vep2 {
+  background: url("img/thmb_02.jpg") no-repeat center;
+}
+.vep3 {
+  background: url("img/thmb_03.jpg") no-repeat center;
+}
+/* h1 {
+  padding-top: 5em;
+  padding-bottom: 0.5em;
+  padding-left: 0.5em;
+  color: white;
+  text-shadow: 0px 0px 5px grey;
+  font-size: 2em;
+  text-align:left;
+} */
+.vids img {
+  padding-top: 1em;
+  padding-bottom: 0em;
+}
+.playr {
+  background-image: url(img/background_crop_dance.jpg);
+  border-radius: 25px;
+  background-position: left top;
+  background-repeat: repeat;
+  width: 920px;
+  height: 590px;
+}
+.playr h1 {
+  padding: 5px;
+  font-size: 3em;
+  color: white;
+  text-shadow: 0px 0px 3px white;
+}
+.playr iframe {
+  width: 853px;
+  height: 480px;
+  border: 5px solid white;
+}
+div#bluebar {
+  background: linear-gradient(#22A4F3, #117AD0);
+  height: 45px;
+  border: 1px solid #6ECAF9;
+}
+div#bluebar img {
+  opacity: 0.1
+}
+div#end {
+  position: fixed;
+  bottom: 0px;
+}

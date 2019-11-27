@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Gallery</title>
+  </head>
+  <body>
+    <img id="arrowLeft" src="img/arrow.png">
+    <img id="arrowRight" src="img/arrow.png" onclick="arrowRightCommand(2)">
+    <div id="slideshow"></div>
+    <img id="slideshowGallery">
+  </body>
+</html>
+<style type="text/css">
+  div#slideshow {
+    width: 128vh;
+    height: 72vh;
+    background-size: cover;
+    background-position: center;
+  }
+  img#arrowLeft {
+    transform: rotate(180deg);
+  }
+  img#arrowLeft:hover {
+    opacity: 0.75
+  }
+  img#arrowRight:hover {
+    opacity: 0.75
+  }
+</style>
+<script type="text/javascript">
+  /*var slideshowNumber = 0
+  var slideshow = document.getElementById("slideshow");
+  var arrowLeft = document.getElementById("arrowLeft");*/
+  var arrowRight = document.getElementById("arrowRight");
+  var slideshowImages = new Array("img/gallery_retrotardis-1.jpg", "img/gallery_retrotardis-2.jpg", "img/gallery_mcvisuals-1.jpg")
+  /*slideshow.body.style.backgroundImage = slideshowImages[0]*/
+  var slideshowGallery = document.getElementById("slideshowGallery");
+  slideshowGallery.src = slideshowImages[0]
+  function arrowRightCommand(a) {
+    slideshowGallery.src = slideshowImages[a]
+  }
+</script>

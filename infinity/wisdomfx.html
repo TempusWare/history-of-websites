@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>DeCipher Creations | WisdomFX</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  </head>
+  <body><center><br>
+
+    <div class="section" id="icons"><!-- MEMBER ICONS --></div>
+
+    <div class="section"><!-- EMBED TITLES -->
+      <h1>WisdomFX</h1>
+      <h2 onclick="videoEmbedChange(0, videoListWF)">Channel Trailer</h2><h2 onclick="videoEmbedChange(1, videoListWF)">Titles Concept</h2>
+    </div>
+
+    <div class="section"><!-- EMBED VIDEO -->
+      <div class="videoEmbed"><iframe id="videoEmbed" width="100%" height="100%" src="https://www.youtube.com/embed/kuzlNa4-tsA?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe></div>
+    </div>
+
+    <div class="section"><!-- ABOUT -->
+      <h3>About WisdomFX</h3>
+      <p>Minecraft Doctor Who animator.<br>Visual Effects Artist.</p>
+      <p>Creating since January 16, 2015.</p>
+    </div>
+
+    <div class="section"><!-- GALLERY -->
+      <div id="imageOne" class="gallery"></div><div id="imageTwo" class="gallery"></div>
+    </div>
+
+    <div class="section"><!-- SOCIAL MEDIA -->
+      <p>Follow this member on Twitter:</p>
+      <p class="link" onclick="twitterInvite('ToasterOfWisdom')">@ToasterOfWisdom</p>
+    </div>
+
+    <div id="return" class="section"><!-- COPYRIGHT -->
+      <h3 onclick="parent.location='index.html'">DeCipher Creations</h3>
+      <p id="notice"></p>
+    </div>
+
+  <br></center></body>
+</html>
+<style type="text/css">
+  body {
+    background-image: url("img/background_wisdomfx.jpg");
+  }
+  img#iconWF {
+    box-shadow: 0px 0px 3vh rgba(200, 0, 0, 1);
+  }
+  img#iconWF:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 3vh rgba(255, 255, 255, 0.75);
+    transition: 0.25s
+  }
+  div#imageOne {
+    background-image: url("img/gallery_wisdomfx-1.jpg");
+  }
+  div#imageTwo {
+    background-image: url("img/gallery_wisdomfx-2.jpg");
+  }
+</style>
+<script type="text/javascript" src="scripts.js"></script>

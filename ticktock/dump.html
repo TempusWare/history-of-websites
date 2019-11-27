@@ -1,0 +1,55 @@
+<head>
+style {
+img#reaper {
+	z-index: 1000;
+	position: absolute;
+	left: 500px;
+	top: 500px;
+	transform: rotate(-30deg);
+	animation-name: reaper;
+	animation-duration: 20s;
+    animation-iteration-count: 1;
+    animation-delay: 2s;
+}
+
+@keyframes reaper {
+	0% {opacity:0.0}
+	5% {opacity:1.0}
+	10% {opacity:0.0}
+	100% {opacity: 0.0}
+}
+
+a#reap {
+	animation-name: reap;
+	animation-duration: 20s;
+    animation-iteration-count: 1;
+    animation-delay: 2s;
+	visibility: hidden;
+}
+
+@keyframes reap {
+	0% {visibility:hidden}
+	5% {visibility:visible}
+	10% {visibility:hidden}
+	100% {visibility:hidden}
+}
+}
+</head>
+
+img#reaper {
+	z-index: 1000;
+	position: absolute;
+	left: 500px;
+	top: 500px;
+	transform: rotate(-30deg);
+	opacity: 0;
+}
+
+<div class="gal-crop">
+	<a href="gal/sombra.html" target="gallery-window">
+		<img class="gal-img" src="resource\pic\gallery_sombra.jpg">
+	</a>
+</div>
+
+<a id="reap" href="https://youtu.be/yXHehzD1z4E?t=3s"><img id="reaper" src="resource\pic\gallery_reaper.png"></a>
+

@@ -1,0 +1,183 @@
+* {
+  margin: 0;
+}
+body {
+  background-color: grey
+}
+div.section {
+  background-color: black;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+div#sec1 {
+  background-image: url(img/background_mccoy-blur.jpg);
+  /* background-position: center -200px; */
+  background-position: center;
+  height: 33.333vh;
+  border-bottom: white solid 2.5px;
+}
+div#sec2 {
+  background-image: url(img/background_sutton-blur.jpg);
+  background-position: center;
+  border-top: white solid 2.5px;
+  border-bottom: white solid 2.5px;
+}
+div#sec3 {
+  background-image: url(img/background_spaceparticles-blur.jpg);
+  background-position: center;
+  /*height: 492.5px;*/
+  border-top: white solid 2.5px;
+}
+div#sec4 {
+  background-image: url(img/background_xii-blur.jpg);
+  background-position: center;
+  /*height: 492.5px;*/
+  border-top: white solid 2.5px;
+}
+div#secDC {
+  background-image: url(img/background_vortex-blur.jpg);
+  background-position: center;
+  border-top: white solid 2.5px;
+}
+#logo {
+  position: absolute;
+  top: 33.333vh;
+  left: 50vw;
+  transform: translate(-50%, -50%);
+  z-index: 1
+}
+img#logosept {
+  transition: 0.125s;
+  cursor: pointer;
+  width: 22.5vh;
+  max-width: 300px;
+}
+img#logosept:hover {
+  transform: scale(0.9);
+}
+@font-face {
+    font-family: "Pixel01";
+    src: url("Pixel01.ttf");
+}
+h1 {
+  font-family: "Pixel01";
+  font-size: 7.5vh;
+  color: white;
+  text-shadow: 0px 0px 5px grey
+}
+h2 {
+  font-family: "Pixel01";
+  font-size: 5vh;
+  color: white;
+  text-shadow: 0px 0px 5px grey
+}
+p {
+  font-family: "Pixel01";
+  font-size: 3vh;
+  color: white;
+  width: 68vw;
+  max-width: 680px
+}
+/* SECTION 1 THINGS */
+div#sec2 h1 {
+  margin-top: 10vh;
+}
+div#sec2 h2 {
+  display: inline;
+  cursor: pointer;
+  transition: 0.25s;
+  color: lightgrey
+}
+div#sec2 h2:hover {
+  color: grey;
+}
+/* SHOWREEL 01 */
+div#gal {
+  margin: auto;
+  margin-top: 2vh;
+  height: 38.3vw;
+  width: 68vw;
+  border: white solid 5px;
+  overflow: hidden;
+  max-width: 680px;
+  max-height: 383px;
+  margin-bottom: 2vh;
+}
+iframe#galYT {
+  max-width: 680px;
+  max-height: 383px;
+  height: 38.3vw;
+  width: 68vw;
+  position: relative;
+}
+div#twitterDIV {
+  position: relative;
+  height: 38.3vw;
+  width: 68vw;
+  max-width: 510px;
+  max-height: 383px;
+  border: white solid 5px;
+  margin-top: 2vh;
+}
+div#inLogo {
+  display: inline;
+}
+/*div#slideshowimg {
+  position: relative;
+  width: 408vw;
+  height: 38.3vw;
+  background-image: url("img/slideshow-01.jpg");
+  background-repeat: no-repeat;
+  max-width: 4080px;
+  max-height: 383px;
+  left: 0px;
+  animation: 25s slideshow01 infinite ease-in-out;
+}
+@keyframes slideshow01 {
+  0% {left: 0vw}
+  15% {left: 0vw}
+  20% {left: -68vw}
+  35% {left: -68vw}
+  40% {left: -136vw}
+  55% {left: -136vw}
+  60% {left: -204vw}
+  75% {left: -204vw}
+  80% {left: -272vw}
+  95% {left: -272vw}
+  100% {left: -340vw}
+}
+*/
+/* DOWNLOADS */
+  /* Selector: */
+.dl-select {
+  transition: 0.125s;
+  cursor: pointer;
+  opacity: .75;
+}
+.dl-select:hover {
+  transform: scale(0.9);
+  opacity: .625;
+}
+#secDC h2 {
+  cursor: pointer;
+  display: inline-block;
+  margin-left: 0.5vw;
+  margin-right: 0.5vw;
+  transition: 0.25s;
+  color: lightgrey
+}
+#secDC h2:hover {
+  color: grey;
+}
+#sec3 h2 {
+  cursor: pointer;
+  display: inline-block;
+  margin-left: 0.5vw;
+  margin-right: 0.5vw;
+  transition: 0.25s;
+  color: lightgrey
+}
+#sec3 h2:hover {
+  color: grey;
+}

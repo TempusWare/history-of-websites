@@ -1,0 +1,127 @@
+body {
+}
+header {
+  background-image: url('img/bg_01.jpg');
+  background-attachment: fixed;
+  border-bottom: 5px white solid
+}
+.tbody {
+  background-position: center;
+  background-attachment: fixed;
+  padding-bottom: 5px;
+}
+h1 {
+  font-family: 'BenchNine', sans-serif;
+  font-size: 5em;
+  margin: 0;
+  color: white
+}
+p {
+  font-family: 'BenchNine', sans-serif;
+  font-size: 2em;
+  margin: 0;
+  color: white
+}
+img.social {
+  margin: 15px;
+  display: inline-block;
+}
+p.social {
+  display: inline-block;
+  position: relative;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+img#logotop {
+  margin-top: 15px;
+}
+ul#nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  color: white
+}
+ul#nav li {
+  float: left;
+}
+ul#nav li a {
+  display: block;
+  padding: 8px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-family: 'Acme', sans-serif;
+  font-size: 3em;
+  font-weight: normal;
+}
+ul#nav li a:hover {
+  color: lightblue;
+  transition: 0.25s;
+  text-decoration: underline;
+}
+div#navbar {
+  display: inline-block;
+}
+div.middle {
+  display: inline-block;
+  position: relative;
+  margin: 15px;
+  border-radius: 5px;
+  background: rgba(255,255,255,0.25)
+}
+iframe.livecount {
+  height: 140px;
+  width: 400px;
+  display: inline-block;
+}
+iframe {
+  border: none;
+  width: 100%;
+  height: 275px;
+}
+div.infobox {
+  width: 820px;
+  padding-bottom: 10px;
+}
+.gal {
+  width: 950px;
+  height: 534px;
+  border: 5px white solid;
+}
+div.gap {
+  display: inline-block;
+  width: 500px;
+  /*visibility: hidden;*/
+}
+.gall {
+  border: 5px white solid;
+  width: 300px;
+  cursor: pointer;
+  margin: 10px;
+  transition: 0.25s
+}
+.gall:hover {
+  opacity: 0.8
+}
+.mcv {
+  background-image: url('img/bg_mcv.jpg')
+}
+.tr {
+  background-image: url('img/bg_tr.jpg')
+}
+.kai {
+  background-image: url('img/bg_kai.jpg')
+}
+.tempus {
+  background-image: url('img/bg_tempus.jpg')
+}
+.retro {
+  background-image: url('img/bg_retro.jpg');
+}
+div.infobox p, h1, p.social {
+  text-shadow: 0 0 5px black;
+}
+.homepage {
+  background-image: url('img/bg_02.jpg')
+}

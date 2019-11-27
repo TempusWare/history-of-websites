@@ -1,0 +1,120 @@
+h1 {
+	font-family: 'Oswald', sans-serif;
+}
+
+h2,h3{
+	font-family: 'Oswald', sans-serif;
+	font-weight: 300;
+	font-size: 5em;
+	color: white;
+	margin: 0px;
+}
+
+a.sociallink:hover {
+    filter: grayscale(100%);
+}
+
+p {
+	font-family: 'Open Sans Condensed', sans-serif;
+	color: white;
+	font-size: 2em;
+	margin: 0px;
+}
+
+img#logo {
+	padding-top: 15px;
+	height: 185px;
+}
+
+img#social {
+	height: 60px;
+	}
+
+h1#TTF {
+	color: white;
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	top: 170px;
+	font-size: 4em;
+}
+
+.parallax {
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.bg1 {
+    background-image: url("../pic/wallpaper_galaxy.png");
+	height: 300px;
+	background-position: 0px -200px;
+}
+
+.bg2 {
+    background-image: url("../pic/wallpaper_anteikulong.png");
+	height: 810px;
+}
+
+.bg3 {
+    background-image: url("../pic/gallery_interior.png");
+	height: 690px;
+}
+
+* {
+	text-shadow: 0 0 10px gold;
+}
+
+br.gap {
+	display: block;
+	margin: 5px 0px;
+}
+
+a.preview:hover {
+    filter: grayscale(100%);
+}
+
+div.gal-crop {
+	display: inline-block;
+	max-width: 100px;
+	height: 100px;
+	overflow: hidden;
+	margin-left: 10px;
+	margin-right: 10px;
+	border: 5px solid white;
+	text-indent: -37%;
+}
+
+img.gal-img {
+	height: 100px;
+}
+
+iframe#gal-window {
+	width: 815px;
+	height: 450px;
+	border: 5px solid white;
+	overflow: hidden;
+	display: inline-block;
+}
+
+div#move {
+	display: inline-block;
+}
+
+p.viddes {
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 3em;
+	color: white;
+	margin: 0px;
+}
+
+a#normal {
+	color: white;
+}
+a:active,a:visited,a:link{
+	text-decoration: none
+}
+a:hover {
+	color: gray;
+}

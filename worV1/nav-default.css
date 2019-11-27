@@ -1,0 +1,122 @@
+header {
+  height: 130px;
+  background-image: url('img/topbar-banner.jpg');
+  background-repeat: repeat-x;
+  background-position: center;
+}
+div.navcontent {
+  height: 130px;
+  background-image: url('img/topbar.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.invis {
+  visibility: hidden;
+}
+/* Top Navigation Links */
+div.navigation {
+  position: relative;
+  top: 8px;
+}
+div.nav-box {
+  display: inline-block;
+  background-color: #1B6ABA;
+  border-radius: 5px;
+  transition: all .25s ease-in-out;
+  transform: scale(0);
+  position: relative;
+  bottom: 45px;
+  z-index: 0
+}
+p.nav:hover ~ div.nav-box {
+  animation-name: hovernav;
+  animation-duration: .25s;
+  transform: scale(1.125);
+}
+p.nav {
+  position: relative;
+  margin: 10px;
+  cursor: pointer;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  font-size: 1.125em;
+  color: white;
+  text-shadow: white 0 0 2px;
+  z-index: 3
+}
+p.nav:hover {
+  animation-name: hovernavp;
+  animation-duration: .25s;
+  transform: scale(1);
+}
+div.navbarlink {
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px
+}
+@keyframes hovernav {
+  0% {transform:scale(0);}
+  70% {transform:scale(1.25);}
+  100% {transform:scale(1.125);}
+}
+@keyframes hovernavp {
+  0% {transform:scale(0.8);}
+  100% {transform:scale(1);}
+}
+/* Play Now Button */
+.playnow {
+  position: absolute;
+  height: 68px;
+  left: 50%;
+  margin-left: 303px;
+  top: 49px;
+}
+.pon {
+}
+.poff {
+  z-index: 1;
+  opacity: 1;
+  transition: 0.125s
+}
+.poff:hover {
+  opacity: 0
+}
+/* Logo */
+img.logo {
+  position: absolute;
+  left: 50%;
+  margin-left: -467px;
+  top: 50px;
+  z-index: 2;
+  cursor: pointer;
+}
+img.loglow {
+  position: absolute;
+  left: 50%;
+  margin-left: -520px;
+  top: 0px;
+  z-index: 1;
+  opacity: .25;
+  transition: .5s;
+}
+img.logo:hover ~ img.loglow {
+  opacity: 1
+}
+/* Splash */
+p.splash {
+  font-family: 'Open Sans', sans-serif;
+  color: gold;
+  font-weight: bold;
+  position: relative;
+  top: -5px;
+  transition: .25s;
+  cursor: default;
+  width: 250px;
+  text-align: center;
+}
+p.splash a {
+  color: white;
+}
+p.splash a:hover {
+  color: gold;
+}

@@ -1,0 +1,90 @@
+img.comicprev {
+  height: 50px;
+  border: 3px solid black;
+  border-radius: 15px;
+  transition: .5s;
+  cursor: pointer;
+}
+img.comicprev:hover {
+  opacity: .8
+}
+img#comic {
+  width: 800px;
+  border-radius: 15px;
+  border: 5px solid white;
+}
+div#comicspick {
+  text-align: center;
+}
+p.comictitle {
+  display: inline-block;
+  color: white;
+  font-family: Kalam;
+  font-size: 2em;
+  margin: 5px;
+  font-weight: bold;
+  text-shadow: black 0 0 5px;
+  cursor: pointer;
+  transition: .5s
+}
+p.comictitle:hover {
+  color: black;
+  text-shadow: white 0 0 5px;
+}
+div.creditimg img {
+  width: 1000px;
+  border-radius: 25px;
+  border: black solid 5px;
+}
+div#header1 {
+  height: 1000px;
+}
+div#header2 {
+  height: 2500px;
+}
+div#header3 {
+  height: 1500px
+}
+div#header3 img#norm {
+  width: 350px
+}
+img#norm2 {
+  height: 430px
+}
+img#aunt {
+  height: 500px
+}
+img#direct {
+  height: 480px
+}
+p.contact{
+  font-family: Kalam;
+  color: white;
+  text-shadow: black 0 0 10px;
+  font-size: 2em
+}
+p.contact a {
+  font-family: Kalam;
+  color: #3BCCFC;
+  transition: .25s
+}
+div#comicslides {
+  width: 800px;
+  display: block;
+  background-image: url("img/comicsbackground.png");
+  border-radius: 25px;
+  margin-bottom: 5px
+}
+img.comicpreview {
+  height: 100px;
+  padding: 10px;
+  border-radius: 25px;
+  transition: .25s
+}
+img.comicpreview:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+}
+div#piccontain {
+  width: 1100px
+}

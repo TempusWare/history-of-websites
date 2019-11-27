@@ -1,0 +1,57 @@
+.slideshow {
+	overflow: hidden;
+	width: 640px;
+	height: 360px;
+	position: relative;
+  border: 5px white solid;
+}
+.slideshow figure {
+	width: 500%;
+	position: relative;
+	margin: 0;
+	left: 0;
+	animation: 20s sliding infinite ease;
+}
+.slideshow figure div {
+	width: 20%;
+	float: left;
+}
+.slideshow figure img {
+	width: 500%;
+	float: left;
+}
+@keyframes sliding {
+  0% {
+		left: 0%
+	}
+  18% {
+		left: 0%
+	}
+  22% {
+		left: -100%
+	}
+  38% {
+		left: -100%
+	}
+  42% {
+		left: -200%
+	}
+  58% {
+		left: -200%
+	}
+  62% {
+		left: -300%
+	}
+  78% {
+		left: -300%
+	}
+  82% {
+		left: -400%
+	}
+	98% {
+		left: -400%
+	}
+  100% {
+		left: 0%
+	}
+}
